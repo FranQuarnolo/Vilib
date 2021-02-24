@@ -1,0 +1,2053 @@
+/*ENCABEZADO PAGINA*/
+header{
+	width: 960px;
+	height: 165px;
+	background-color: #669ca8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+
+}
+/*Imagen libros izquierda*/
+#libro0{
+	width: 75px;
+	height: 140px;
+	float: left;
+	margin-bottom: 0px;
+	margin-top: 24px;
+}
+
+/*Caja del logo*/
+#logo{
+	width: 350px;
+	height: 100px;
+	/*background-color: #800a24;*/
+	margin-left: 305px;
+}
+/*imagen logo*/
+#ViLib{
+	width: 335px;
+	height: 80px;
+	margin-top: 5px;
+	float: none;
+
+}
+
+/*Caja del botones*/
+#botonera_principal{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 275px;	
+}
+
+/*BOTONERA PRINCIPAL*/
+#botonera_principal ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera_principal ul li{
+	display: inline;
+}
+#botonera_principal ul li a{
+	display: inline-block;
+	font-family: verdana;
+	font-size: 20;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/*BOTON BIBLIOTECA*/
+#boton_biblioteca a{
+	width: 150px;
+	height: 38px;
+	background-color: #26375c;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #000000;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#boton_biblioteca a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+#texto_btn{
+	text-align: center;
+	padding: 0;
+	margin-top: 9px;
+}
+
+/*BOTON CASA*/
+#boton_casa a{
+	width: 50px;
+	height: 50px;
+	background-color: #26375c;
+	border-radius: 50%;
+	margin-left: 25px;
+	margin-top: -7px;
+	float: left;	
+}
+#casa{
+	width: 50px;
+	height: 50px;
+}
+#boton_casa a:hover{
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+/*BOTON ACADEMIA*/
+#boton_academia a{
+	width: 150px;
+	height: 38px;
+	background-color: #26375c;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #000000;
+	margin-right: -35px;
+	float: right;
+	text-decoration: none;
+	color: #ffffff;
+}
+#boton_academia a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/*Caja del usuario*/
+#user{
+	width: 320px;
+	height: 150px;
+	/*background-color: #7bbda6;*/
+	margin-top: 5px;
+	margin-bottom: 25px; 
+	float: right;	
+}
+/*imagen de usuario*/
+#usuario{
+	width: 49px;
+	height: 49px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+/*nombre de usuario*/
+#nombre_usuario{
+	float: right;
+	margin-right: 10px;
+	margin-top:35px;
+	font-family: verdana;
+	font-size: 12;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration-line: underline;
+}
+#nombre_usuario:hover{
+	color: #7d0b02;
+}
+
+/*------------------------*/
+/*CUERPO PAGINA*/
+#cuerpo{
+	width: 960px;
+	height: 1000px;
+	background-color: #ededed;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+/*Caja del Titulo ventana*/
+#titulo{
+	width: 960px;
+	height: 100px;
+	background-color: #BAD2D8;
+	margin-bottom: 10px;
+	border-color: #26375c;
+	border-width: 1.5px;
+	border-style: solid;
+}
+/*imagen libro titulo*/
+#libro1{
+	width: 100px;
+	height: 80px;
+	margin-left: 55px;
+	margin-top: 6px;
+	margin-right: 100px;
+	float: left;
+}
+/*texto de titulo*/
+h3{
+	color: #000000;
+	font-style: normal;
+	font-family: verdana;
+	font-size: 25px;
+	margin-top: 35px;
+	color: #000000;
+}
+
+/*Caja del busqueda*/
+#busqueda{
+	width: 250px;
+	height: 100px;
+	background-color: #9AACBA;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	float: left;
+	border-color: #26375c;
+	border-width: 1.5px;
+	border-style: solid;
+}
+/*boton de buscar*/
+#boton_buscar{
+	width: 75px;
+	height: 30px;
+	background-image:url(img/search.png);
+  	background-repeat:no-repeat;
+ 	background-position:left;
+ 	background-color: #BAD2D8;
+ 	background-size: 20px;
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: #26375c;
+ 	float: right;
+ 	margin-right: 5px;
+ 	margin-top: 44px;
+ 	text-align: right;
+ 	font-family: verdana;
+ 	font-size: 11;
+}
+#boton_buscar:hover{
+	background-color: #669ca8;
+}
+/*Texto del boton buscar*/
+#texto_btn_buscar{
+	font-family: verdana;
+ 	font-size: 10;
+ 	float: right;
+ 	color: #000000;
+ 	margin-top: 5px;
+}
+/*Barra de busqueda*/
+#mi_busqueda{
+	width: 150px;
+	height: 18px;
+	margin-left: 10px;
+	margin-top: 52px;
+	background-color: #BAD2D8;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	font-family: verdana;
+	font-size: 11;
+	font-style: normal;
+}
+
+/*Barra de filtros*/
+#filtros{
+	width: 250px;
+	height: 720px;
+	margin-top: 10px;
+	background-color: #BAD2D8;
+	float: left;
+	border-style: solid;
+	border-color: #26375c;
+	border-width: 1.5px;
+}
+
+.filtros{
+	margin-top: 0px;
+	margin-left: 0px;
+	float: right;
+}
+
+#filtro_orden{
+	width: 250px;
+	height: 30px;
+	float: left;
+	list-style-type: none;
+	background-color: #9AACBA;
+	font-style: normal;
+	font-family: verdana;
+	font-size: 12;
+	color: #000000;
+	text-decoration: none;
+}
+
+#filtro_f{
+	width: 250px;
+	height: 30px;
+	float: left;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	list-style-type: none;
+	background-color: #9AACBA;
+	font-style: normal;
+	font-family: verdana;
+	font-size: 12;
+	color: #000000;
+	text-decoration: none;
+}
+.lista_filtros{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+li.categorias,
+li.materias,
+li.carrera,
+li.anio {
+	margin-top: 10px;
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	list-style-type:none;
+	font-family: verdana;
+	font-size: 12px;
+}
+#item{
+	list-style-type: none;
+}
+
+
+
+/*Caja Listado*/
+#listado{
+	width: 690px;
+	height: 860px;
+	background-color: #ffffff;
+	float: right;
+	margin-top: 15px;
+	overflow: auto;
+}
+.letra{
+	width: 690px;
+	height: 15px;
+	margin-top: 0px;
+	background-color: #9AACBA;
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+
+}
+#lista_libros{
+	list-style-type: circle;
+
+}
+
+.orden{
+	width: 250px;
+	height: 30px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #9AACBA;
+	font-style: normal;
+	font-family: verdana;
+	font-size: 12;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+/*PIE PAGINA*/
+footer{
+	width: 960px;
+	height: 150px;
+	background-color: #ededed;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+/*Caja Logo pie pagina*/
+#logo_pie{
+	width: 250px;
+	height: 150px;
+	background-color: #26375c;
+	float: left;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1.5px;
+	margin-right: 10px;
+}
+/*Logo de vilib pie*/
+#vilib_pie{
+	width: 180px;
+	height: 50px;
+	float: left;
+	margin-left: -5px;
+	margin-right: 10px;
+}
+/*Logo instituto pie*/
+#logo_instituto{
+	width: 90px;
+	height: 90px;
+	float: right;
+	margin-right: 40px;
+	align-content: center;
+}
+/*Texto logo ies*/
+#ies{
+	float: left;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: -25px;
+	margin-left: 50px;
+}
+/*Caja botones inferior central*/
+#botonera_inferior{
+	width: 465px;
+	height: 150px;
+	margin-left: 270px;
+	background-color: #26375c;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1.5px;
+
+}
+/*Imagen de contacto*/
+#contacto_img{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+/*Texto contacto*/
+#contacto{
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 12;
+	font-style: normal;
+	margin-top: 11px;
+	float: left;
+}
+/*Lista de redes*/
+#botonera_redes {
+	margin-top: 45px;
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+}
+#redes{
+	display: inline;
+	list-style-type: none
+}
+#contacto_cel{
+	float: right;
+	margin-top: -10px;
+	margin-right: 180px;
+}
+/*imagen wapp*/
+#wa{
+	width: 20px;
+	height: 20px;
+	margin-top: 80px;
+	float: left;
+	margin-left: -80px;
+}
+/*imagen telegram*/
+#te{
+	width: 20px;
+	height: 20px;
+	margin-top: 80px;
+	float: left;
+	margin-left: -100px;
+}
+/*numero_celular*/
+#numero{
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 12;
+	font-style: normal;
+	margin-top: 5px;
+	margin-left: 140px;
+
+	float: left;
+}
+
+
+/*Pie Acerca de*/
+#acerca_de{
+	width: 200px;
+	height: 150px;
+	background-color: #26375c;
+	float: right;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1.5px;	
+}
+#acerca_img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	padding: 0;
+	margin-top: 0px;
+
+}
+#acerca{
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 12;
+	font-style: normal;
+	text-align: left;
+	padding: 0;
+}
+
+#ejemplo{
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 12;
+	font-style: normal;
+	margin-left: 20px;
+}
+
+
+
+/*SECCION REGISTRO*/
+/*Cuerpo del REGISTRO*/
+#registro{
+	width: 960px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #BAD2D8;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#titulo_cuerpo{
+	text-align: center;
+	font-family: verdana;
+	font-size: 24px;
+	font-weight: bold;
+	color: #669ca8;
+
+}
+
+#personales{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #26375c;
+	background-color: #669ca8;
+	font-family: verdana;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+#datos_personas{
+	list-style-type: none;
+	padding: 0;
+	margin-left: 10px;
+	float: left;
+	text-align:left;
+
+}
+
+input{
+	width: 150px;
+	height: 3px;
+	margin-left: 5px;
+	margin-bottom: 5;
+	margin-top: 5px;
+	display: inline-block;
+	background-color: #BAD2D8;
+	border-style: solid;
+	border-width: 1px;
+	text-align: left;
+	font-family: verdana;
+	font-size: 12;
+	padding: 10px 10px 10px 10px;
+}
+
+#radio{
+	width: 12px;
+	height: 12px;
+	margin-top: 5px;
+}
+
+#carrera{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+select{
+	width: auto;
+	height: 30px;
+}
+
+#correo{
+	width: 250px;
+}
+
+#celular{
+	width: 100px;
+}
+	
+#cuenta{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #26375c;
+	background-color: #669ca8;
+	font-family: verdana;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+#datos_cuenta{
+	list-style-type: none;
+}
+
+#botones_formulario{
+	list-style-type: none;
+	display: inline;
+	font-family: verdana;
+	font-size: 12px;
+	float: left;
+}
+
+#borrar{
+	width: 100px;
+	height: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #26375c;
+	background-color: #7a0a02;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+}
+
+#enviar{
+	width: 100px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	text-align-last: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #26375c;
+	color: #ffffff;
+	margin-left: 500px;
+}
+
+
+/*SECCION PRINCIPAL HOME*/
+/*Cuerpo de seccion Home*/
+#home{
+	width: 960px;
+	height: 1000px;
+	background-color: #ededed;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;	
+}
+
+/*Slide de fotos*/
+#slide{
+	width: 900px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+#slide ul {
+	padding: 0;
+	display: flex;
+	width: 400%;
+	list-style-type: none;
+	animation: cambio 20s infinite alternate linear;
+}
+#slide li{
+	width: 100%
+	list-style-type: none;
+}
+#slide img{
+	width: 900px;
+	padding: 0;
+}
+
+/*animacion del slide*/
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25% {margin-left: -100%}
+	45% {margin-left: -100%}
+
+	50% {margin-left: -200%}
+	70% {margin-left: -200%}
+
+	75% {margin-left: -300%}
+	100% {margin-left: -300%}
+
+	105% {margin-left: -400%}
+	125% {margin-left: -400%}
+
+	130% {margin-left: -500%}
+	150% {margin-left: -500%}
+
+}
+/*fin de animacion del slide*/
+
+/*Bienvenida*/
+#presentacion{
+	width: 600px;
+	height: 100px;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+#presentacion h2{
+	font-family: verdana;
+	font-size: 30px;
+	color: #30A9DE;
+}
+
+@font-face{
+		font-family:'typewriter-dry';
+		src: url(fuentes/typewriter-dry.ttf) 
+		format('truetype');
+
+}
+#presentacion p{
+	font-family:'typewriter-dry';
+	font-size: 18px;
+}
+/*Opciones de la pagina principal*/
+#opciones_home{
+	width: 900px;
+	height: 450px;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	font-family: verdana;
+
+}
+
+#opciones_home h3{
+	width: 600px;
+	height: 100px;
+	margin-left: 150px;
+	font-family: 'verdana', sans-serif;
+	font-size: 30px;	
+ 	
+}
+
+/*A donde vamos? texto*/
+#donde{
+	margin-top: 50px;
+}
+
+/*Opciones menu principal home biblioteca o academia*/
+#opciones_home ul{
+	list-style-type: none;
+}
+
+#opciones_home ul li{
+	display: inline;
+}
+
+#opciones_home ul li a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+#btn_biblioteca a{
+	width: 300px;
+	height: 300px;
+	background-color: #2193F3;
+	border-radius: 50%;
+	margin-left: 25px;
+	margin-top: 10px;
+	float: left;
+}
+
+#btn_biblioteca a:hover{
+	background-color: #30A9DE;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#btn_academia a{
+	width: 300px;
+	height: 300px;
+	background-color: #A21B20;
+	border-radius: 50%;
+	margin-right: 70px;
+	margin-top: 10px;
+	float: right;
+}
+
+#btn_academia a:hover{
+	background-color: #c11f4a;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#txt_btn_b{
+	color: #000000;
+	font-family: verdana;
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration-style: none;
+	margin-left: 30px;
+	margin-top: -50px;
+	float: left;
+}
+
+#txt_btn_b:hover{
+	color: #30A9DE;
+}
+
+#txt_btn_a{
+	color: #000000;
+	font-family: verdana;
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration-style: none;
+	margin-right: 80px;
+	margin-top: -50px;
+	float: right;
+}
+
+#txt_btn_a:hover{
+	color: #A21B20;
+}
+
+
+#libro_btn{
+	width: 200px;
+	height: 180px;
+	margin-top: 45px;
+}
+
+#academia_btn{
+	width: 280px;
+	height: 220px;
+	margin-top: 30px;
+}
+
+/*SECCION ACADEMIA*/
+/*Cuerpo de seccion academia*/
+#academy{
+	width: 960px;
+	height: 990px;
+	background-color: #ededed;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;	
+}
+
+/*Videos del nivel 1*/
+#nivel1{
+	margin-top: 0px;
+	padding: 0;
+	color: #ffffff;
+	background-color: #b84a44;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#fila1{
+	width: 940px;
+	height: 285px;
+	margin-left: 10px;
+	overflow: auto;
+}
+
+#fila1 ul{
+	padding: 10px 10px;
+	margin-top: 0px;
+	display: flex;
+	width: 243%;
+	list-style-type: none;
+	background-color: #BAD2D8;
+}
+
+#fila1 li{
+	width: 350px;
+	margin:15px;
+	list-style-type: none;
+}
+
+#fila1 li video{
+	width: 350px;
+}
+
+/*Videos del nivel 2*/
+#nivel2{
+	margin-top: 20px;
+	padding: 0;
+	color: #ffffff;
+	background-color: #b84a44;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#fila2{
+	width: 940px;
+	height: 285px;
+	margin-left: 10px;
+	overflow: auto;
+}
+
+#fila2 ul{
+	padding: 10px 10px;
+	margin-top: 0px;
+	display: flex;
+	width: 243%;
+	list-style-type: none;
+	background-color: #BAD2D8;
+}
+
+#fila2 li{
+	width: 350px;
+	margin:15px;
+	list-style-type: none;
+}
+
+#fila2 li video{
+	width: 350px;
+}
+
+/*Videos del nivel 3*/
+#nivel3{
+	margin-top: 20px;
+	padding: 0;
+	color: #ffffff;
+	background-color: #b84a44;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#fila3{
+	width: 940px;
+	height: 285px;
+	margin-left: 10px;
+	overflow: auto;
+}
+
+#fila3 ul{
+	padding: 10px 10px;
+	margin-top: 0px;
+	display: flex;
+	width: 324%;
+	list-style-type: none;
+	background-color: #BAD2D8;
+}
+
+#fila3 li{
+	width: 350px;
+	margin:15px;
+	list-style-type: none;
+}
+
+#fila3 li video{
+	width: 350px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------*/
+/*Inicio RESPONSIVE*/
+/*Tablets o dispositivos medianos*/
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+/*ENCABEZADO PAGINA*/
+header{
+	width: 580px;
+	height: 130px;
+}
+/*Imagen libros izquierda*/
+#libro0{
+	width: 27px;
+	height: 80px;
+	margin-top: 49px;
+}
+
+/*Caja del logo*/
+#logo{
+	width: 180px;
+	height: 50px;
+	margin-left: 200px;
+	margin-top: 15px;
+}
+/*imagen logo*/
+#ViLib{
+	width: 180px;
+	height: 45px;
+}
+/*Caja del botones*/
+#botonera_principal{
+	width: 200px;
+	height: 20px;
+	margin-top: 43px;
+	margin-left: 185px;	
+}
+
+/*BOTON BIBLIOTECA*/
+#boton_biblioteca a{
+	width: 70px;
+	height: 30px;
+}
+
+#texto_btn{
+	margin-top: 7px;
+	font-size: 10px;
+}
+
+/*BOTON CASA*/
+#boton_casa a{
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 1.5px;
+}
+#casa{
+	width: 30px;
+	height: 30px;
+}
+
+/*BOTON ACADEMIA*/
+#boton_academia a{
+	width: 70px;
+	height: 30px;
+	margin-right: -5px;
+}
+/*Caja del usuario*/
+#user{
+	width: 120px;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 25px; 	
+}
+/*imagen de usuario*/
+#usuario{
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+}
+/*nombre de usuario*/
+#nombre_usuario{
+	margin-right: 5px;
+	margin-top:15px;
+	font-size: 10px;
+}
+
+/*------------------------------------------*/
+/*SECCION PRINCIPAL HOME*/
+/*Cuerpo de seccion Home*/
+#home{
+	width: 580px;
+	height: 1180px;
+	margin-bottom: 10px;
+}
+/*Slide de fotos*/
+#slide{
+	width: 530px;
+	height: 200px;
+	margin-left: 25px;
+}
+#slide ul {
+	width: 400%;	
+}
+#slide li{
+	width: 200%
+}
+#slide img{
+	width: 530px;
+}
+
+/*Bienvenida*/
+#presentacion{
+	width: 500px;
+	height: 100px;
+}
+#presentacion h2{
+	font-size: 20px;
+}
+#presentacion p{
+	font-size: 15px;
+}
+/*Opciones pagina principal*/
+#opciones_home{
+	width: 530px;
+	height: 850px;
+}
+#opciones_home h3{
+	width: 500px;
+	height: 100px;
+	margin-left: 0px;
+}
+/*A donde vamos? texto*/
+#donde{
+	margin-top: 40px;
+}
+#opciones_home ul li a{
+	display: block;
+}
+#btn_biblioteca a{
+	width: 250px;
+	height: 250px;
+	margin-left: 100px;
+}
+#btn_academia a{
+	width: 300px;
+	height: 300px;
+	margin-right: 120px;
+	margin-top: 100px;
+}
+#txt_btn_b{
+	font-size: 20px;
+	margin-top: -40px;
+}
+#txt_btn_a{
+	font-size: 20px;
+	margin-right: 92px;
+	margin-top: -40px;
+}
+#libro_btn{
+	width: 140px;
+	height: 120px;
+	margin-top: 60px;
+}
+#academia_btn{
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+}
+
+/*------------------------------------------*/
+/*PIE PAGINA*/
+footer{
+	width: 530px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+/*Caja Logo pie pagina*/
+#logo_pie{
+	width: 170px;
+	height: 100px;
+	margin-left: -25px;
+}
+/*Logo de vilib pie*/
+#vilib_pie{
+	width: 95px;
+	height: 25px;
+	margin-left: -12px;
+	margin-bottom: 0px;
+}
+/*Logo instituto pie*/
+#logo_instituto{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+/*Texto logo ies*/
+#ies{
+	font-size: 8px;
+	margin-top: -18px;
+	margin-left: 15px;
+}
+/*Caja botones inferior central*/
+#botonera_inferior{
+	width: 240px;
+	height: 100px;
+	margin-left: 158.5px;
+}
+/*Imagen de contacto*/
+#contacto_img{
+	width: 20px;
+	height: 20px;
+	padding: 10px 10px;
+}
+/*Texto contacto*/
+#contacto{
+	font-size: 10px;
+	margin-top: 13px;
+}
+
+#red{
+	width: 25px;
+	height: 25px;
+}
+/*Lista de redes*/
+#botonera_redes {
+	margin-top: 40px;
+	margin-left: -50px;
+}
+
+#contacto_cel{
+	float: right;
+	margin-top: -10px;
+	margin-right: 180px;
+}
+/*imagen wapp*/
+#wa{
+	width: 15px;
+	height: 15px;
+	margin-top: 50px;
+	margin-left: -90px;
+}
+/*imagen telegram*/
+#te{
+	width: 15px;
+	height: 15px;
+	margin-top: 50px;
+	margin-left: -110px;
+}
+/*numero_celular*/
+#numero{
+	font-size: 9px;
+	margin-top: -16px;
+	margin-left: 48px;
+}
+
+/*Pie Acerca de*/
+#acerca_de{
+	width: 140px;
+	height: 100px;
+	margin-right: -25px;
+}
+#acerca_img{
+	width: 20px;
+	height: 20px;
+	margin-top: -5px;
+	margin-left: -30px;
+}
+#acerca{
+	font-size: 9px;
+	text-align: left;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+#ejemplo{
+	font-size: 8px;
+	margin-left: 10px;
+}
+
+/*------------------------------------------*/
+/*CUERPO PAGINA Biblioteca*/
+#cuerpo{
+	width: 580px;
+	height: 1800px;	
+}
+/*Caja del Titulo ventana*/
+#titulo{
+	width: 576.5px;
+	height: 80px;
+}
+/*imagen libro titulo*/
+#libro1{
+	width: 65px;
+	height: 60px;
+	margin-left: 20px;
+}
+/*texto de titulo*/
+h3{
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+/*Caja del busqueda*/
+#busqueda{
+	width: 180px;
+	height: 50px;
+	margin-top: 0px;
+	border-width: 1.2px;
+}
+/*boton de buscar*/
+#boton_buscar{
+	width: 50px;
+	height: 20px;
+ 	background-size: 10px;
+ 	margin-right: 3px;
+ 	margin-top: 24px;
+ 	font-size: 11px;
+}
+
+/*Texto del boton buscar*/
+#texto_btn_buscar{
+ 	font-size: 10px;
+ 	margin-top: 2px;
+ 	margin-right: -3px;
+}
+/*Barra de busqueda*/
+#mi_busqueda{
+	width: 115px;
+	height: 15px;
+	margin-left: 5px;
+	margin-top: 24px;
+	font-size: 11px;
+}
+
+/*Barra de filtros*/
+#filtros{
+	width: 180px;
+	height: 720px;
+	margin-top: 0px;
+	border-width: 1.2px;
+}
+#filtro_orden{
+	width: 180px;
+	height: 20px;
+	font-size: 12px;
+}
+#filtro_f{
+	width: 180px;
+	height: 20px;
+	font-size: 12px;
+}
+li.categorias,
+li.materias,
+li.carrera,
+li.anio {
+	margin-top: 5px;
+	margin-left: 2px;
+	font-size: 11px;
+}
+/*Caja Listado*/
+#listado{
+	width: 390px;
+	height: 1700px;
+	font-size: 10px
+}
+.letra{
+	width: 390px;
+	height: 14px;
+	font-size: 10px;
+}
+.orden{
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 8px;
+}
+/*------------------------------------------*/
+/*SECCION ACADEMIA*/
+/*Cuerpo de seccion academia*/
+#academy{
+	width: 580px;
+	height: 980px;
+}
+/*Videos del nivel 1*/
+#nivel1{
+	font-size: 12px;
+}
+#fila1{
+	width: 480px;
+	height: 285px;
+	margin-top: 10px;
+}
+#fila1 ul{
+	margin-left: 100px;
+	padding: 0;
+	display: block;
+	width: 73%;
+}
+#fila1 li{
+	width: 250px;
+	margin:15px;
+	margin-left: 25px;
+}
+#fila1 li video{
+	width: 300px;
+}
+/*Videos del nivel 2*/
+#nivel2{
+	font-size: 12px;
+}
+#fila2{
+	width: 480px;
+	height: 285px;
+	margin-top: 10px;
+}
+#fila2 ul{
+	margin-left: 100px;
+	padding: 0;
+	display: block;
+	width: 73%;
+}
+#fila2 li{
+	width: 250px;
+	margin:15px;
+	margin-left: 25px;
+}
+#fila2 li video{
+	width: 300px;
+}
+/*Videos del nivel 3*/
+#nivel3{
+	font-size: 12px;
+}
+#fila3{
+	width: 480px;
+	height: 285px;
+	margin-top: 10px;
+}
+#fila3 ul{
+	margin-left: 100px;
+	padding: 0;
+	display: block;
+	width: 73%;
+}
+#fila3 li{
+	width: 250px;
+	margin:15px;
+	margin-left: 25px;
+}
+#fila3 li video{
+	width: 300px;
+}
+
+/*------------------------------------------*/
+/*SECCION REGISTRO*/
+/*Cuerpo del REGISTRO*/
+#registro{
+	width: 580px;
+	height: 580px;
+}
+
+#titulo_cuerpo{
+	font-size: 20px;
+}
+#personales{
+	width: 500px;
+	font-size: 11px;
+}
+input{
+	width: 150px;
+	height: 1.5px;
+	margin-left: 8px;
+	margin-bottom: 7px;
+	font-size: 11px;
+}
+select{
+	height: 20px;
+}
+#correo{
+	width: 200px;
+}	
+#cuenta{
+	width: 450px;
+	text-align: left;
+	font-size: 11px;
+}
+#botones_formulario{
+	font-size: 10px;
+}
+#borrar{
+	width: 70px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 30px;
+}
+#enviar{
+	width: 80px;
+	height: 30px;
+	margin-left: -20px;
+	margin-left: 50px;
+}
+
+/*------------------------------------------*/
+}
+/*fin @media 600px a 1023px TABLETS*/
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+/*Inicio @Media PHONES*/
+/*------------------------------------------------*/
+@media all and (max-width: 599px){
+
+	/*ENCABEZADO PAGINA*/
+header{
+	width: 90%;
+	height: auto;
+}
+#libro0{
+	visibility: hidden;
+}
+#logo{
+	width: 150px;
+	height: 25px;
+	padding: 0;
+	margin-left: -35px;
+	float: none;
+}
+#ViLib{
+	width: 100px;
+	height: 28px;
+	margin-top: -155px;
+	float: right;
+}
+#botonera_principal{
+	width: 100%;
+	height: 125px;
+	margin-top: 0px;
+	margin-left: 0px;	
+}
+#botonera_principal ul li{
+	display: block;
+}
+#botonera_principal ul li a{
+	font-size: 10px;
+}
+
+/*BOTON BIBLIOTECA*/
+#boton_biblioteca a{
+	width: 100%;
+	height: 30px;
+	border-width: 0px;
+	border-radius: 0px;
+	margin-top: -67px;
+}
+#texto_btn{
+	text-align: center;
+	padding: 0;
+	margin-top: 11px;
+}
+/*BOTON CASA*/
+#boton_casa a{
+	width: 100%;
+	height: 30px;
+	border-radius: 0px;
+	border-width: 0px;
+	background-size: 0px;
+	margin-left: 0px;
+	margin-top: -101px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#casa{
+	width: 25px;
+	height: 25px;
+}
+#boton_academia a{
+	width: 100%;
+	height: 30px;
+	background-color: #26375c;
+	border-radius: 0px;
+	border-width: 0px;
+	margin-right: 0px;
+	margin-top: -33px
+}
+/*Caja del usuario*/
+#user{
+	width: 70px;
+	height: 20px;
+	margin-left: 120px
+	float: none;	
+}
+/*imagen de usuario*/
+#usuario{
+	width: 10px;
+	height: 10px;
+	float: right;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+/*nombre de usuario*/
+#nombre_usuario{
+	float: none;
+	margin-left: 18px;
+	margin-top:6px;
+	font-size: 5px;
+	color: #000000;
+}
+/*------------------------------------------------*/
+/*SECCION PRINCIPAL HOME*/
+/*Cuerpo de seccion Home*/
+#home{
+	width: 90%;
+	height: 1050px;
+}
+
+/*Slide de fotos*/
+#slide{
+	width: 90%;
+	margin-left: 20px;
+}
+#slide ul {
+	width: 500%;
+}
+#slide li{
+	width: 90%
+}
+#slide img{
+	width: 100%;
+}
+
+/*Bienvenida*/
+#presentacion{
+	width: 90%;
+	height: 200px;
+}
+#presentacion h2{
+	font-size: 18px;
+}
+#presentacion p{
+	font-size: 12px;
+}
+
+/*A donde vamos? texto*/
+#donde{
+	margin-top: -120px;
+}
+/*Opciones de la pagina principal*/
+#opciones_home{
+	width: 90%;
+	height: 800px;
+}
+
+#opciones_home h3{
+	width: 90%;
+	height: 100px;
+	margin-left: 15px;
+	font-size: 22px;		
+}
+
+#opciones_home ul li{
+	display: block;
+}
+
+#opciones_home ul li a{
+	display: inline-block;
+	text-decoration: none;
+}
+#btn_biblioteca a{
+	width: 200px;
+	height: 200px;
+	background-color: #2193F3;
+	border-radius: 50%;
+	margin-left: -20px;
+	margin-top: 10px;
+	float: none;
+}
+#btn_biblioteca a:hover{
+	background-color: #2193F3;
+}
+#btn_academia a{
+	width: 200px;
+	height: 200px;
+	background-color: #A21B20;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: 120px;
+	float: none;
+}
+#btn_academia a:hover{
+	background-color: #A21B20;
+}
+#txt_btn_b{
+	font-size: 15px;
+	margin-left: 0px;
+	margin-top: -30px;
+	float: none;
+}
+#txt_btn_a{
+	font-size: 15px;
+	margin-right: 0px;
+	margin-top: -20px;
+	float: none;
+}
+
+#libro_btn{
+	width: 100px;
+	height: 90px;
+	margin-top: 55px;
+}
+
+#academia_btn{
+	width: 120px;
+	height: 120px;
+	margin-top: 28px;
+}
+/*------------------------------------------------*/
+/*PIE PAGINA*/
+footer{
+	width: 90%;
+	height: auto;
+}
+/*Caja Logo pie pagina*/
+#logo_pie{
+	width: 100%;
+	height: 80px;
+	float: none;
+	border-width: 0px;
+	margin-right: 0px;
+	margin-top: 90px;
+	text-align: center;
+}
+/*Logo de vilib pie*/
+#vilib_pie{
+	width: 100px;
+	height: 25px;
+	float: left;
+	margin-top: 20px;
+
+}
+/*Logo instituto pie*/
+#logo_instituto{
+	width: 35px;
+	height: 35px;
+	float: none;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+/*Texto logo ies*/
+#ies{
+	float: none;
+	font-size: 6px;
+	margin-top: -8px;
+	margin-left: 70px;
+}
+/*Caja botones inferior central*/
+#botonera_inferior{
+	width: 100%;
+	height: 90px;
+	float: right;
+	border-width: 0px;
+	margin-top: -325px;
+}
+/*Imagen de contacto*/
+#contacto_img{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 3px;
+}
+/*Texto contacto*/
+#contacto{
+	font-size: 9px;
+	margin-top: 5px;
+	margin-right: 115px;
+	float: right;
+}
+/*Lista de redes*/
+#botonera_redes {
+	margin-top: 5px;
+	margin-left: 60px;
+}
+#red{
+	width: 25px;
+	height: 25px;
+}
+#contacto_cel{
+	float: right;
+	margin-top: -50px;
+	margin-right: 100px;
+}
+/*imagen wapp*/
+#wa{
+	width: 10px;
+	height: 10px;
+	margin-top: 37px;
+	margin-left: -80px;
+}
+/*imagen telegram*/
+#te{
+	width: 10px;
+	height: 10px;
+	margin-top: 37px;
+	margin-left: -90px;
+}
+/*numero_celular*/
+#numero{
+	font-size: 8px;
+	margin-top: -13px;
+	margin-left: 75px;
+}
+/*Pie Acerca de*/
+#acerca_de{
+	visibility: hidden;
+}
+/*------------------------------------------------*/
+/*CUERPO PAGINA Biblioteca*/
+/*------------------------*/
+#cuerpo{
+	width: 90%;
+	height: 1010px;		
+}
+/*Caja del Titulo ventana*/
+#titulo{
+	width: 100%;
+	height: 45px;
+	margin-bottom: 10px;
+	border-width: 0.2px;
+}
+/*imagen libro titulo*/
+#libro1{
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 7px;
+	margin-right: 10px;
+	padding: 0;
+}
+/*texto de titulo*/
+h3{
+	font-size: 10px;
+	margin-top: 15px;
+	margin-right: 55px;
+}
+/*Caja del busqueda*/
+#busqueda{
+	width: 100%;
+	height: 25px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	float: none;
+	border-width: 0.2px;
+}
+/*boton de buscar*/
+#boton_buscar{
+	width: 55px;
+	height: 15px;
+ 	background-size: 10px;
+ 	border-width: 0.5px;
+ 	margin-right: 5px;
+ 	margin-top: 4px;
+ 	font-size: 10px;
+}
+/*Texto del boton buscar*/
+#texto_btn_buscar{
+ 	font-size: 8px;
+ 	margin-top: 2px;
+}
+/*Barra de busqueda*/
+#mi_busqueda{
+	width: 150px;
+	height: 5px;
+	margin-left: 10px;
+	margin-top: 2px;
+	border-bottom-width: 0.2px;
+	font-size: 8px;
+}
+/*Barra de filtros*/
+#filtros{
+	visibility: hidden;
+}
+/*Caja Listado*/
+#listado{
+	width: 100%;
+	height: 1000px;
+	float: none;
+	margin-top: 0px;
+	margin-bottom: -720px;
+}
+.letra{
+	width: 100%;
+	height: 10px;
+	margin-top: 0px;
+	font-size: 8px;
+}
+#lista_libros{
+	list-style-type: circle;
+	font-size: 12px;
+}
+
+/*------------------------------------------------*/
+/*SECCION ACADEMIA*/
+/*Cuerpo de seccion academia*/
+#academy{
+	width: 90%;
+	height: auto;
+}
+/*Videos del nivel 1*/
+#nivel1{
+	font-size: 8px;
+}
+#fila1{
+	width: 90%;
+	height: auto;
+	margin-left: 17px;
+	overflow: auto;
+}
+#fila1 ul{
+	padding: 0px 0px;
+	margin-top: 10px;
+	margin-left: 70px;
+	display: inline-block;
+	width: 150px;
+	height: auto;
+}
+#fila1 li{
+	width: 350px;
+	margin: 0px;
+	margin-top: 10px;
+}
+#fila1 li video{
+	width: 150px;
+}
+#nivel2{
+	font-size: 8px;
+}
+#fila2{
+	width: 90%;
+	height: auto;
+	margin-left: 17px;
+	overflow: auto;
+}
+#fila2 ul{
+	padding: 0px 0px;
+	margin-top: 10px;
+	margin-left: 70px;
+	display: inline-block;
+	width: 150px;
+	height: auto;
+}
+#fila2 li{
+	width: 350px;
+	margin: 0px;
+	margin-top: 10px;
+}
+#fila2 li video{
+	width: 150px;
+}
+#nivel3{
+	font-size: 8px;
+}
+#fila3{
+	width: 90%;
+	height: auto;
+	margin-left: 17px;
+	overflow: auto;
+}
+#fila3 ul{
+	padding: 0px 0px;
+	margin-top: 10px;
+	margin-left: 70px;
+	display: inline-block;
+	width: 150px;
+	height: auto;
+}
+#fila3 li{
+	width: 350px;
+	margin: 0px;
+	margin-top: 10px;
+}
+#fila3 li video{
+	width: 150px;
+}
+/*------------------------------------------------*/
+/*SECCION REGISTRO*/
+/*Cuerpo del REGISTRO*/
+#registro{
+	width: 90%;
+	height: 500px;
+}
+#titulo_cuerpo{
+	font-size: 15px;
+}
+#personales{
+	width: 100%;
+	margin-left: -7px;
+	border-radius: 10px;
+	font-size: 8px;
+}
+#datos_personas{
+	margin-left: 0px;
+}
+input{
+	width: 150px;
+	height: 1px;
+	border-width: 0.5px;
+	font-size: 10px;
+}
+#radio{
+	width: 8px;
+	height: 8px;
+}
+#carrera{
+	margin-bottom: 10px;
+}
+select{
+	width: auto;
+	height: 18px;
+}
+#correo{
+	width: 180px;
+}
+
+#cuenta{
+	width: 90%;
+	text-align: left;
+	border-radius: 10px;
+	border-width: 0.5px;
+	font-size: 9px;
+}
+
+
+#botones_formulario{
+	width: 90%;
+	font-size: 8px;
+}
+
+#borrar{
+	width: 60px;
+	height: 13px;
+	border-width: 0.2px;
+	margin-left: 75px;
+	font-size: 8px;
+}
+
+#enviar{
+	width: 80px;
+	height: 25px;
+	border-width: 0.5px;
+	margin-left: 65px;
+}
+
+
+/*------------------------------------------*/
+}
+/*fin @media 599px PHONES*/
+/*------------------------------------------------*/

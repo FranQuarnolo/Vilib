@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<link rel="icon" type="image/png" href="img/user.png" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<figure>
+			<img id="libro0" src="img/libros2.png">
+		</figure>
+		<div id="user">
+			<a href="form_registro.html" target="_blank"><p id="nombre_usuario">Registrarse</p></a>
+		</div>
+		<figure id="logo">
+			<img id="ViLib" src="img/logo-vilib.png">
+		</figure>
+		<nav id="botonera_principal">
+				<ul>
+					<li id="boton_biblioteca"><a href="library.html"><p id="texto_btn">Biblioteca</p></a></li>
+				
+					<li id="boton_casa"><a href="index.html"><img id="casa" src="img/casa.png"></a></li>
+				
+					<li id="boton_academia"><a href="academia.html"><p id="texto_btn">Academia</p></a></li>
+				</ul>
+			
+		</nav>
+	</header>
+
+	<section id="registro">
+		<form >
+			<h1 id="titulo_cuerpo">REGISTRO</h1>
+  			<fieldset id="personales">
+  				<ul id="datos_personas">
+  					<li>Nombre:<input type="text" name="nombre" required></li>
+  					<li>Apellido:<input type="text" name="apellido" required></li>
+  					<li>Edad:<input type="date" name="edad" required></li>
+  					<li>Sexo:
+  						<input type="radio"  name="hm" value="h" id="radio" 	required>Hombre
+  						<input type="radio"  name="hm" value="m" id="radio" required>Mujer
+  					</li>
+  					<li id="carrera">Carrera:<select name="menu">
+  					<option value="1" selected>Analisis y Programacion de Sistemas</option>
+  					<option value="2">Mecatronica</option>
+  					<option value="3">Enfermeria</option>
+					</select></li>
+					<li>Correo:<input type="email" id="correo" name="correo" size="40" required></li>
+					<li>Tel/Cel:<input type="tel" id="celular" name="telefono"></li>
+				
+  				</ul>
+  		
+			</fieldset>
+			<fieldset id="cuenta">
+				<ul  id="datos_cuenta">
+					<li>Nombre Usuario:<input type="text" name="user_name" required></li>
+					<li>Contraseña:<input type="password" name="password" required></li>
+					<li>Repetir Contraseña:<input type="password" name="password" required></li>
+				</ul>
+			</fieldset>
+			
+			<ul id="botones_formulario">
+				<li id="botones_formulario"><input id="enviar"type="submit" value="Enviar"></li>
+				<li id="botones_formulario"><a href="index.html"><input id="borrar"type="reset" value="Borrar"></a></li>
+			</ul>
+			
+		</form>
+	</section>
+
+	<footer>
+		<div id="logo_pie">
+			<figure>
+				<img id="vilib_pie" src="img/logo-vilib.png">
+				<a href="https://ies9023-mza.infd.edu.ar/sitio/" target="blank"><img id="logo_instituto" src="img/cesit.png"></a>
+				<p id="ies">IES-9-023</p>
+			</figure>
+		</div>
+		<div id="acerca_de">
+			<figure>
+				<img id="acerca_img" src="img/about.png">
+				<p id="acerca">Acerca de</p>
+				<a id="ejemplo" href="img/biblioteca_virtual.png" target="blank">Ir a Ejemplo</a>
+			</figure>
+		</div>
+		<nav id="botonera_inferior">
+			<img id="contacto_img" src="img/info.png">
+			<p id="contacto">Contacto</p>
+			<ul id="botonera_redes">
+  				<li id="redes">
+  					<a href="https://twitter.com/frann_dev" target="blank"><img id="red" src="img/twitter.png" alt="twitter" border="0" /></a>
+  				</li>
+ 				<li id="redes">
+ 					<a href="https://gitlab.com/franquarnolo" target="blank"><img id="red" src="img/git.png" alt="git" border="0" /></a>
+ 					
+ 				</li>
+  				<li id="redes">
+  					<a href="https://www.youtube.com/channel/UCOBVHqOwtyHp3xOiBWyTAdA?view_as=subscriber" target="blank"><img id="red" src="img/youtube.png" alt="youtube" border="0" /></a>
+  				</li>
+			</ul>
+			<ul id="imagenes_cel">
+				<li id="redes">
+					<img id="wa" src="img/whatsapp.png" border="0"/>
+					<img id="te" src="img/telegram.png" border="0"/>
+					<p id="numero">+542616888000</p>
+				</li>	
+			</ul>
+		</nav>	
+	</footer>
+
+</body>
+</html>
